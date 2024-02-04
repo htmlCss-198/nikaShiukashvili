@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background-color:rgb(37, 71, 94) ;
+}
+p{
+    font-size: larger;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main img{
+    height: 60%;
+    width: 25%;
+
+}
+#main1{
+    display: flex;
+    justify-content: space-evenly;
+}
+th{
+    background-color: burlywood;
+}
+td{
+    background-color: blueviolet;
+}
