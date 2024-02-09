@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+header img{
+    width: 100%;
+}
+.div1{
+    justify-content: center;
+}
+.div1 div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.div1 div{
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    text-align: center;  
+    font-size: 24px;
+}
+main div{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+main div img{
+    border-left: 10px dotted ;
+    padding-left: 5px;
+}
+main div p{
+    width: 80%;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 25px;
+}
+footer{
+    display: block;
+    justify-content :left;
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+footer div{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    height: 13%;
+    width: 100%;
+}
+footer div h2 {
+background-color: white;
+}
+
+

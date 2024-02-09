@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    background-color: cornflowerblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+header{
+    text-align: center;
+}
+.class1{
+    display: flex;
+    height: 20%;
+}
+.class1 div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.class1 div img{
+    width: 20%;
+    height: 70%;
+}
+.class2{
+    text-align: center;
+}
+#class2{
+    display: flex;
+    justify-content: center;
+}
+#class2 table{
+    border-collapse: collapse;
+}
+#class2 td {
+    text-align: center;
+}
+#class2 th {
+    text-align: center;
+    width: 100px;
+    background-color: brown;
+}
+
+#class2 tr:hover{
+    color: lightblue;
+}
+footer{
+    padding-top:30px ;
+}
+footer input{
+    width: 20%;
+    height: 50px;
+    resize: none;
+    box-sizing: border-box;
+}
+footer button{
+    background-color: rgb(15, 78, 57);
+    font-size:medium ;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px 20px;
+}
+
+
+
+
+
