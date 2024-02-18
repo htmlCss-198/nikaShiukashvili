@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+header{
+    text-align: center;
+}
+header h1{
+    text-shadow: 1px 1px 8px blue;
+}
+.imgs div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgs img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.imgs img:hover{
+    width: 200px;
+    height: 200px;
+    rotate: 30deg;
+    transition: width 0.7s, height 0.7s, rotate 0.7s ;
+}
+.moving_icon{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 300px;
+}
+.moving_icon div{
+    width: 200px;
+    height: 150px;
+    border: blue 2px solid;
+    position: relative;
+    animation: moving_icon 5s infinite;
+}
+@keyframes moving_icon{
+    0% {
+        top: 0%;
+        left:10%;
+    }
+    25% {
+        top: 0%;
+        left: 70%;
+    }
+    50%{
+        top: 50%;
+        left: 70%;
+    }
+    75%{
+        top: 50%;
+        left:10%;
+    }
+    100%{
+        top: 0%;
+        left: 10%;
+    }
+}
+.div1 div{
+    display: flex;
+    justify-content: center;
+}
+.div1 p{
+    width: 30%;
+}
+.tables{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.tables div{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 1%;
+}
+.tables th{
+    background-color: burlywood;
+}
+.tables td {
+    background-color: bisque;
+    padding: 10px;
+}
+footer{
+    background-color: rgb(0, 0, 136);
+    position: relative;
+    bottom: 0;
+}
+.footer_div div{
+    display: flex;
+    justify-content: center;
+}
+footer #upper_div{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+footer .lower_div{
+    display: flex;
+    justify-content: center;
+}
+footer .lower_div div{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+footer #lower_div{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+footer #lower_div a{
+    padding-bottom: 15px;
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+footer #lower_div h2{
+    color: white;
+    border-bottom: 2px solid white;
+}
+footer input{
+    text-align: center;
+    height: 20%;
+    border-radius: 10px;
+}
+footer button{
+    height: 20%;
+    width: 100%;
+    color: white;
+    background-color:  rgb(82, 82, 82) ;
+    border: solid white 2px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 15px;
+}
+.lower_lower{
+    background-color: rgb(0, 0, 112);
+    display: flex;
+    justify-content: center;
+}
+.lower_lower #divv{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+#lower_lower{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#lower_lower div{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+#lower_lower p{
+    color: white;
+}
+footer h1{
+    color: white;
+}
+.social_media{
+    display: flex;
+    justify-content: space-between;
+}
+.social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10%;
+}
+.social_media a{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 15%;
+    margin-left: 5px;
+}
+.social_media img{
+    width: 40px;
+    height: 40px;
+}
+.social_media div #facebook{
+    background-color: rgb(24 102 211);
+}
+.social_media div #instagram{
+    background-color: #d51a84;
+}
+.social_media div #youtube{
+    background-color: red ;
+}
+.social_media div #twitter{
+    background-color: black ;
+}
+
+
+
+
