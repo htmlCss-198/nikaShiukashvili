@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color:#E0CCBE;
+}
+p{
+   font-size: larger;
+   color: #3C3633; 
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main img{
+    height: 60%;
+    width: 25%;
+
+}
+#main1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#html img{
+    height: 200px;
+    width: 200px;
+}
+#css img{
+    height: 200px;
+    width: 200px;
+}
+#js img{
+    height: 200px;
+    width: 200px;
+}
