@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    font-family:'Roboto', sans-serif;;
+}
+header{
+    top: 0;
+    position: sticky;
+}
+nav{
+    background-color: rgb(82, 82, 82);
+    display: flex;
+    justify-content: center;
+    height: 5vh;    
+}
+nav div{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+nav div a{
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    display:block;
+    padding-top: 1.2vh;
+    font-size:large;
+    width: 100%;
+}
+a:hover{
+    background-color: black;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+main .div1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.div1 #span1{
+    display: flex;
+    justify-content: center;
+}
+.div1 div #span1{
+    justify-content: center;
+}
+.div1 div table tr:hover{
+    color: aqua;
+}
+.side-bar{
+    background-color: gray;
+    left: 0;
+    top: 30%;
+    position: fixed;
+    width: 4%;
+    padding:5px;
+    border-radius: 2%;
+}
+.side-bar div{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+.side-bar div a{
+    margin-bottom:0.5vh;
+    border-radius: 20%;
+    width: 100%;
+}
+.side-bar div img{
+    width: 100%;
+}
+.side-bar div #facebook{
+    background-color: rgb(24 102 211);
+}
+.side-bar div #instagram{
+    background-color: #d51a84;
+}
+.side-bar div #youtube{
+    background-color: red ;
+}
+.side-bar div #twitter{
+    background-color: black ;
+}
+.div1 .review{
+    position: relative;
+    margin-top: 10%;
+    width: 20%;
+    height: 20%;
+    resize: none;
+}
+.review{
+    display: flex;
+}
+.review div{
+    display: flex;
+}
+.review img{
+    margin-right: 10px;
+    height: 20%;
+}
+.review #text{
+    display: block;
+}
+.review h3{
+    margin-top: 0;
+}
+.review button{
+    width: 20%;
+    height: 15%;
+    border: solid 1px gray;
+    border-radius: 50% 10%;
+    display: block;
+    background-color: #197dda;
+    font-size: large;
+}
+footer div{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(82, 82, 82) ;
+}
+footer div #footer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    margin-bottom: 1%;
+}
+footer div #footer-div p{
+    color: white;
+}
+footer div #footer-div a{
+    text-decoration: none;
+    color: white;
+}
+footer div #footer-div h2{
+    color: white;
+}
+footer input{
+    text-align: center;
+    height: 20%;
+    border-radius: 20px;
+}
+footer button{
+    margin-top: 5%;
+    height: 100%;
+    width: 80%;
+    color: white;
+    background-color:  rgb(82, 82, 82) ;
+    border: solid white 2px;
+    border-radius: 20px;
+}
