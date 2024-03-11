@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#0081B0, transparent 90%)
+    no-repeat center;
+        background-size: cover;
+        padding-bottom: 2%;
+}
+
+.header_wrapper{
+    width: 80%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#nav_title{
+    color: white;
+    text-decoration: none;
+}
+
+#header_menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#header_menu a{
+    color: white;
+    text-decoration: none;
+}
+
+#header_login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+#login{
+    font-size: larger;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 2% 10%;
+    border: solid 1px rgb(56, 255, 139);
+    border-radius: 15px;
+}
+
+#login:hover{
+    background-color: rgb(138, 228, 120);
+}
+
+#login:hover a{
+    color: black;
+}
+
+#login a{
+    text-decoration: none;
+    color: white;
+}
+
+#signup{
+    font-size: larger;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 2% 10%;
+    border: solid 1px rgb(56, 255, 139);
+    border-radius: 15px 0px 15px 0px;
+}
+
+#signup a{
+    text-decoration: none;
+    color: white;
+}
+
+#signup:hover{
+    background-color: rgb(138, 228, 120);
+}
+
+#signup:hover a{
+    color: black;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+  }
+
+  #footer_wrapper{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #footer_div a{
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_div a:hover{
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #e60073
+    }
+    
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 5px #ff4da6, 0 0 5px #ff4da6
+    }
+}
+  #copyright{
+    margin: 0;
+    padding: 1%;
+  }
