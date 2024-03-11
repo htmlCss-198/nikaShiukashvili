@@ -1,0 +1,1431 @@
+@media only screen and (min-width: 1024px){
+  body{
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  header{
+      display: flex;
+      justify-content: center;
+      background: linear-gradient(#0081B0, transparent 90%),
+            #0081B0 url('/imgs/header/image\ 7.png') 
+            no-repeat center;
+            background-size: cover;
+  }
+  
+  .header_wrapper{
+      width: 80%;
+      position: relative;
+  }
+  
+  nav{
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+  }
+  #burger_bar{
+      display: none;
+  }
+  
+  #bar_items{
+      display: none;
+  }
+  
+  #nav_title{
+      color: white;
+      text-decoration: none;
+  }
+  
+  #header_menu{
+      width: 40%;
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      flex-wrap: wrap;
+  }
+  
+  #header_menu a{
+      color: white;
+      text-decoration: none;
+  }
+  
+  #header_login{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 20%;
+  }
+  
+  #login{
+      font-size: larger;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 2% 10%;
+      border: solid 1px rgb(56, 255, 139);
+      border-radius: 15px;
+  }
+  
+  #login:hover{
+      background-color: rgb(138, 228, 120);
+  }
+  
+  #login:hover a{
+      color: black;
+  }
+  
+  #login a{
+      text-decoration: none;
+      color: white;
+  }
+  
+  #signup{
+      font-size: larger;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 2% 10%;
+      border: solid 1px rgb(56, 255, 139);
+      border-radius: 15px 0px 15px 0px;
+  }
+  
+  #signup a{
+      text-decoration: none;
+      color: white;
+  }
+  
+  #signup:hover{
+      background-color: rgb(138, 228, 120);
+  }
+  
+  #signup:hover a{
+      color: black;
+  }
+  
+  #header_input_wrapper_inside{
+    display: flex;
+}
+
+#header_input_wrapper_inside h6{
+    margin: 0;
+    font-size: 16px;
+}
+
+#header_input_wrapper_inside img{
+    height: 80%;
+}
+
+#header_hr{
+    margin-right: 0%;
+}
+
+#header_input_wrapper_inside input{
+    background: transparent;
+    border: none;
+    box-shadow: 0px 1px 3px gray;
+    border-radius: 8px;
+    padding: 3px;
+    width: 80%;
+}
+
+#header_input_wrapper{
+    display: flex;
+    justify-content: space-between;
+    border: 1px gray solid;
+    padding: 1%;
+    border-radius: 40px;
+}
+
+#header_search{
+    background-color: #008EC4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 1%;
+    width: 3.5%;
+}
+
+#header_search img{
+    width: 40%;
+}
+
+#header_input{
+    background-color: white;
+    padding: 2% 3%;
+    border-radius: 50px;
+    margin-top: 20%;
+    box-shadow: 0px 0px 20px #008EC4;
+    position: relative;
+    bottom: -15%;
+}
+
+#header_input h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+    color: #008EC4;
+    margin: 0;
+}
+
+#header_input h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+main{
+    padding-top: 12%;
+}
+
+.main_upper{
+    display: flex;
+    justify-content: center;
+}
+
+#upper_wrapper{
+    width: 75%;
+    text-align: center;
+}
+
+#upper_wrapper h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    padding-bottom: 5%;
+}
+
+#upper_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#content_main_upper{
+    text-align: center;
+}
+
+#content_main_upper img{
+    padding: 4%;
+    background-color: #EBF9FF;
+    border-radius: 15px;
+}
+
+#content_main_upper h6{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+#content_main_upper p{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main_middle{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+#middle_wrapper{
+    width: 75%;
+}
+
+#middle_upper_wrapper{
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0%;
+    padding: 0;
+    row-gap: 5%; 
+  }
+
+  #container{
+    display: flex;
+    justify-content: center;
+  }
+
+  #container_wrapper{
+    width: 75%;
+    text-align: left;
+  }
+
+  #inside_container{
+    position: relative;
+  }
+
+  #rating{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+
+  #price_name{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #price_name h6{
+    font-size: 16px;
+    margin: 0%;
+    padding: 0% 0% 5% 0%;
+  }
+
+  #location_1{
+    display: flex;
+    padding-bottom: 5%;
+  }
+
+  #location_1 img{
+    height: 70%;
+  }
+
+  #location_1 p{
+    margin: 0%;
+  }
+
+  #location_img{
+    width: 100%;
+    height: 100%;
+  }
+
+  #see_more{
+    padding-top: 5%;
+  }
+
+  #middle_title{
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  #see_more{
+    display: flex;
+    justify-content: center;
+  }
+
+  #wrapper_11{
+    width: 12%;
+  }
+
+  #see_more a{
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #mid_button{
+    padding: 5% 10%;
+    border-radius: 25px;
+    border: solid 1px rgb(182, 182, 182);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;  
+    width: 100%;
+  }
+
+  #mid_button:hover{
+    background-color: rgb(71, 241, 37);
+    color: white;
+    cursor: pointer;
+  }
+
+  #link11{
+    text-decoration: none;
+    color: black;
+  }
+
+  .main_lower{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), 
+                       url(/imgs/main/middle_lower/Testimonial.png);
+                       background-size: cover;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  #main_lower_wrapper{
+    display: flex;
+    justify-content: center;
+  }
+
+  #subscribe{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+    margin: 3% 0%;
+    border-radius: 25px;
+  }
+
+  #subscribe_photo{
+    width: 30%;
+  }
+
+  #subscribe_photo img{
+    border-radius: 25px 0px 0px 25px;
+    width: 100%;
+  }
+
+  #subscribe_text{
+    width: 70%;
+    text-align: center;
+    color: white;
+  }
+
+  #subscribe_text h3{
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  #subscribe_input{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #subscribe_input_input{
+    width: 60%;
+    height: 6vh;
+    border-radius: 25px;
+    border: none;
+    padding: 0% 5%;
+  }
+
+  #subscribe_input button{
+    height: 5vh;
+    border-radius: 25px;
+    border: none;
+    position: absolute;
+    right: 15.5%;
+    background-color: #008395;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  footer{
+      background-color: black;
+      color: white;
+      text-align: center;
+      margin-top: auto;
+      width: 100%;
+    }
+  
+    #footer_wrapper{
+      display: flex;
+      justify-content: space-evenly;
+    }
+  
+    #footer_div a{
+      text-decoration: none;
+      color: white;
+    }
+  
+    #footer_div a:hover{
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+  
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #e60073
+      }
+      
+      to {
+        text-shadow: 0 0 5px #fff, 0 0 5px #ff4da6, 0 0 5px #ff4da6
+      }
+  }
+    #copyright{
+      margin: 0;
+      padding: 1%;
+    }
+  }
+
+  @media only screen and (max-width:1023px) {
+    body{
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header{
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(#0081B0, transparent 90%),
+        #0081B0 url('/imgs/header/image\ 7.png') 
+        no-repeat center;
+        background-size: cover;
+    }
+    
+    .header_wrapper{
+        width: 90%;
+        position: relative;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    #burger_bar{
+        display: none;
+    }
+    
+    #bar_items{
+        display: none;
+    }
+    
+    #nav_title{
+        color: white;
+        text-decoration: none;
+    }
+    
+    #header_menu{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    
+    #header_menu a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    #header_login{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 20%;
+    }
+    
+    #login{
+        font-size: larger;
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        justify-content: center;
+        padding: 2% 10%;
+        border: solid 1px rgb(56, 255, 139);
+        border-radius: 15px;
+    }
+    
+    #login:hover{
+        background-color: rgb(138, 228, 120);
+    }
+    
+    #login:hover a{
+        color: black;
+    }
+    
+    #login a{
+        text-decoration: none;
+        color: white;
+        font-size: small;
+    }
+    
+    #signup{
+        font-size: larger;
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        justify-content: center;
+        padding: 2% 5%;
+        border: solid 1px rgb(56, 255, 139);
+        border-radius: 15px 0px 15px 0px;
+    }
+    
+    #signup a{
+        text-decoration: none;
+        color: white;
+        font-size: small;
+    }
+    
+    #signup:hover{
+        background-color: rgb(138, 228, 120);
+    }
+    
+    #signup:hover a{
+        color: black;
+    }
+    
+    #header_input_wrapper_inside{
+      display: flex;
+      padding: 3%;
+  }
+  
+  #header_input_wrapper_inside h6{
+      margin: 0;
+      font-size: 25px;
+  }
+  
+  #header_input_wrapper_inside img{
+      height: 10%;
+      width: 5%;
+  }
+  
+  #header_hr{
+      margin-right: 0%;
+  }
+  
+  #header_input_wrapper_inside input{
+      background: transparent;
+      border: none;
+      box-shadow: 0px 1px 3px gray;
+      border-radius: 8px;
+      padding: 3px;
+      width: 100%;
+  }
+  
+  #header_input_wrapper{
+      display: block;
+      border: 1px gray solid;
+      padding: 1%;
+      border-radius: 40px;
+  }
+  
+  #inside_design{
+      width: 50%;
+  }
+
+  #header_search{
+      background-color: #008EC4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 25px;
+      width: 3%;
+      padding: 5px 20px;
+      margin-left: 5%;
+      margin-bottom: 2%;
+  }
+  
+  #header_search img{
+      width: 100%;
+
+  }
+  
+  #header_input{
+      background-color: white;
+      padding: 2% 3%;
+      border-radius: 50px;
+      box-shadow: 0px 0px 20px #008EC4;
+      position: relative;
+      margin-top: 4%;
+  }
+  
+  #header_input h1{
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 60px;
+      color: #008EC4;
+      margin: 0;
+  }
+  
+  #header_input h2{
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 32px;
+  }
+  
+  main{
+      width: 100%;  
+      margin-bottom: 4%;
+  }
+  
+  .house_list{
+      display: block;
+  }
+  
+  #house_list_wrapper{
+      display: flex;
+      justify-content: center;
+  }
+
+  #wrapper_11{
+      width: 90%;
+  }
+  
+  main{
+      padding-top: 12%;
+  }
+  
+  .main_upper{
+      display: flex;
+      justify-content: center;
+  }
+  
+  #upper_wrapper{
+      width: 75%;
+      text-align: center;
+  }
+  
+  #upper_wrapper h1{
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 40px;
+      padding-bottom: 5%;
+  }
+  
+  #upper_content{
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  #content_main_upper{
+      text-align: center;
+  }
+  
+  #content_main_upper img{
+      padding: 4%;
+      background-color: #EBF9FF;
+      border-radius: 15px;
+  }
+  
+  #content_main_upper h6{
+      font-weight: 700;
+      font-style: normal;
+      font-size: 20px;
+      margin-bottom: 0;
+  }
+  
+  #content_main_upper p{
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+  }
+  
+  .main_middle{
+      display: flex;
+      justify-content: center;
+      padding-top: 10%;
+  }
+  
+  #middle_wrapper{
+      width: 75%;
+  }
+  
+  #middle_upper_wrapper{
+      text-align: center;
+  }
+  
+  .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 0%;
+      padding: 0;
+      row-gap: 5%; 
+    }
+  
+    #container{
+      display: flex;
+      justify-content: center;
+    }
+  
+    #container_wrapper{
+      width: 75%;
+      text-align: left;
+    }
+  
+    #inside_container{
+      position: relative;
+    }
+  
+    #rating{
+      position: absolute;
+      top: 5%;
+      right: 5%;
+    }
+  
+    #price_name{
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    #price_name h6{
+      font-size: 16px;
+      margin: 0%;
+      padding: 0% 0% 5% 0%;
+    }
+  
+    #location_1{
+      display: flex;
+      padding-bottom: 5%;
+    }
+  
+    #location_1 img{
+      height: 70%;
+    }
+  
+    #location_1 p{
+      margin: 0%;
+    }
+  
+    #location_img{
+      width: 100%;
+      height: 100%;
+    }
+  
+    #see_more{
+      padding-top: 5%;
+    }
+  
+    #middle_title{
+      font-size: 40px;
+      font-weight: 700;
+    }
+  
+    #see_more{
+      display: flex;
+      justify-content: center;
+    }
+  
+    #wrapper_11{
+      width: 12%;
+    }
+  
+    #see_more a{
+      width: 100%;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  
+    #mid_button{
+      padding: 5% 10%;
+      border-radius: 25px;
+      border: solid 1px rgb(182, 182, 182);
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 16px;  
+      width: 170%;
+    }
+  
+    #mid_button:hover{
+      background-color: rgb(71, 241, 37);
+      color: white;
+      cursor: pointer;
+    }
+  
+    #link11{
+      text-decoration: none;
+      color: black;
+    }
+  
+    .main_lower{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                         rgba(0, 0, 0, 0.5)), 
+                         url(/imgs/main/middle_lower/Testimonial.png);
+                         background-size: cover;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  
+    #main_lower_wrapper{
+      display: flex;
+      justify-content: center;
+    }
+  
+    #subscribe{
+      width: 75%;
+      display: flex;
+      justify-content: center;
+      height: 40%;
+      margin: 3% 0%;
+      border-radius: 25px;
+    }
+  
+    #subscribe_photo{
+      width: 30%;
+      display: none;
+    }
+  
+    #subscribe_photo img{
+      border-radius: 25px 0px 0px 25px;
+      width: 100%;
+    }
+  
+    #subscribe_text{
+      width: 70%;
+      text-align: center;
+      color: white;
+    }
+  
+    #subscribe_text h3{
+      font-size: 32px;
+      font-weight: bold;
+    }
+  
+    #subscribe_input{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #subscribe_input_input{
+      width: 60%;
+      height: 6vh;
+      border-radius: 25px;
+      border: none;
+      padding: 0% 5%;
+    }
+  
+    #subscribe_input button{
+      height: 5vh;
+      border-radius: 25px;
+      border: none;
+      position: absolute;
+      right: 16.5%;
+      background-color: #008395;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin-top: auto;
+        width: 100%;
+      }
+    
+      #footer_wrapper{
+        display: flex;
+        justify-content: space-evenly;
+      }
+    
+      #footer_div a{
+        text-decoration: none;
+        color: white;
+      }
+    
+      #footer_div a:hover{
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+    
+      @keyframes glow {
+        from {
+          text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #e60073
+        }
+        
+        to {
+          text-shadow: 0 0 5px #fff, 0 0 5px #ff4da6, 0 0 5px #ff4da6
+        }
+    }
+      #copyright{
+        margin: 0;
+        padding: 1%;
+      }
+}
+
+@media only screen and (max-width:600px) {
+    body{
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header{
+        background: linear-gradient(#0081B0, transparent 90%)
+        no-repeat center;
+            background-size: cover;
+            padding-bottom: 2%;
+    }
+    
+    .header_wrapper{
+        width: 85%;
+        position: relative;
+    }
+    nav{
+        display: block;
+    }
+
+    #nav_title{
+        color: white;
+        text-decoration: none;
+    }
+
+    #burger_bar{
+        display: block;
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        margin-top: 4%;
+    }
+
+    #bar_items{
+        display: none;
+        flex-direction:column;
+        padding-bottom: 25%;
+    }
+
+    #bar_items a{
+        text-decoration: none;
+        color: white;
+        border-bottom: 1px solid black;
+        margin-bottom: 2%;
+    }
+
+    #header_menu{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+        display: none;
+    }
+    
+    #header_menu a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    #header_login{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 20%;
+        display: none;
+    }
+    
+    #login{
+        font-size: larger;
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        justify-content: center;
+        padding: 2% 10%;
+        border: solid 1px rgb(56, 255, 139);
+        border-radius: 15px;
+    }
+    
+    #login:hover{
+        background-color: rgb(138, 228, 120);
+    }
+    
+    #login:hover a{
+        color: black;
+    }
+    
+    #login a{
+        text-decoration: none;
+        color: white;
+        font-size: small;
+    }
+    
+    #signup{
+        font-size: larger;
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        justify-content: center;
+        padding: 2% 5%;
+        border: solid 1px rgb(56, 255, 139);
+        border-radius: 15px 0px 15px 0px;
+    }
+    
+    #signup a{
+        text-decoration: none;
+        color: white;
+        font-size: small;
+    }
+    
+    #signup:hover{
+        background-color: rgb(138, 228, 120);
+    }
+    
+    #signup:hover a{
+        color: black;
+    }
+    
+    #header_input_wrapper_inside{
+      display: flex;
+      align-items: center;
+      padding: 3%;
+  }
+  
+  #header_input_wrapper_inside h6{
+      margin: 0;
+      font-size: 25px;
+  }
+
+  #inside_design input{
+      height: 3vh;
+  }
+  
+  #header_input_wrapper_inside img{
+      height: 10%;
+      width: 15%;
+      padding-right: 5%;
+  }
+  
+  #header_hr{
+      margin-right: 0%;
+  }
+  
+  #header_input_wrapper_inside input{
+      background: transparent;
+      border: none;
+      box-shadow: 0px 1px 3px gray;
+      border-radius: 25px;
+      padding: 5px;
+      width: 100%;
+  }
+  
+  #header_input_wrapper{
+      display: block;
+      border: 1px gray solid;
+      padding: 1%;
+      border-radius: 40px;
+  }
+  
+  #inside_design{
+      width: 50%;
+  }
+
+  #header_search{
+      background-color: #008EC4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 25px;
+      width: 3%;
+      padding: 15px 30px;
+      margin-left: 5%;
+      margin-bottom: 2%;
+  }
+  
+  #header_search img{
+      width: 200%;
+
+  }
+  
+  #header_input{
+      background-color: white;
+      padding: 2% 3%;
+      border-radius: 50px;
+      box-shadow: 0px 0px 20px #008EC4;
+      position: relative;
+      margin-top: 4%;
+      text-align: center;
+  }
+  
+  #header_input h1{
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 45px;
+      color: #008EC4;
+      margin: 0;
+  }
+  
+  #header_input h2{
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 25px;
+  }
+  
+  main{
+      padding-top: 12%;
+  }
+  
+  .main_upper{
+      display: flex;
+      justify-content: center;
+  }
+  
+  #upper_wrapper{
+      width: 75%;
+      text-align: center;
+  }
+  
+  #upper_wrapper h1{
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 40px;
+      padding-bottom: 5%;
+  }
+  
+  #upper_content{
+      display: block;
+  }
+  
+  #content_main_upper{
+      text-align: center;
+  }
+  
+  #content_main_upper img{
+      padding: 4%;
+      background-color: #EBF9FF;
+      border-radius: 15px;
+  }
+  
+  #content_main_upper h6{
+      font-weight: 700;
+      font-style: normal;
+      font-size: 20px;
+      margin-bottom: 0;
+  }
+  
+  #content_main_upper p{
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+  }
+  
+  .main_middle{
+      display: flex;
+      justify-content: center;
+      padding-top: 10%;
+  }
+  
+  #middle_wrapper{
+      width: 75%;
+  }
+  
+  #middle_upper_wrapper{
+      text-align: center;
+  }
+  
+  .grid-container {
+      display: block;
+      grid-template-columns: auto auto auto auto;
+      gap: 0%;
+      padding: 0;
+      row-gap: 5%; 
+    }
+  
+    #container{
+      display: flex;
+      justify-content: center;
+    }
+  
+    #container_wrapper{
+      width: 75%;
+      text-align: left;
+    }
+  
+    #inside_container{
+      position: relative;
+    }
+  
+    #rating{
+      position: absolute;
+      top: 5%;
+      right: 5%;
+    }
+  
+    #price_name{
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    #price_name h6{
+      font-size: 16px;
+      margin: 0%;
+      padding: 0% 0% 5% 0%;
+    }
+  
+    #location_1{
+      display: flex;
+      padding-bottom: 5%;
+    }
+  
+    #location_1 img{
+      height: 70%;
+    }
+  
+    #location_1 p{
+      margin: 0%;
+    }
+  
+    #location_img{
+      width: 100%;
+      height: 100%;
+    }
+  
+    #see_more{
+      padding-top: 12%;
+    }
+  
+    #middle_title{
+      font-size: 40px;
+      font-weight: 700;
+    }
+  
+    #see_more{
+      display: flex;
+      justify-content: center;
+    }
+  
+    #wrapper_11{
+      width: 40%;
+    }
+  
+    #see_more a{
+      width: 100%;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  
+    #mid_button{
+      padding: 5% 10%;
+      border-radius: 25px;
+      border: solid 1px rgb(182, 182, 182);
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 16px;  
+      width: 100%;
+    }
+  
+    #mid_button:hover{
+      background-color: rgb(71, 241, 37);
+      color: white;
+      cursor: pointer;
+    }
+  
+    #link11{
+      text-decoration: none;
+      color: black;
+    }
+  
+    .main_lower{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                         rgba(0, 0, 0, 0.5)), 
+                         url(/imgs/main/middle_lower/Testimonial.png);
+                         background-size: cover;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  
+    #main_lower_wrapper{
+      display: flex;
+      justify-content: center;
+    }
+  
+    #subscribe{
+      width: 75%;
+      display: flex;
+      justify-content: center;
+      height: 40%;
+      margin: 3% 0%;
+      border-radius: 25px;
+    }
+  
+    #subscribe_photo{
+      width: 30%;
+    }
+  
+    #subscribe_photo img{
+      border-radius: 25px 0px 0px 25px;
+      width: 100%;
+    }
+  
+    #subscribe_text{
+      width: 70%;
+      text-align: center;
+      color: white;
+    }
+  
+    #subscribe_text h3{
+      font-size: 20px;
+      font-weight: bold;
+    }
+  
+    #subscribe_input{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #subscribe_input_input{
+      width: 80%;
+      height: 5vh;
+      border-radius: 25px;
+      border: none;
+      padding: 0% 5%;
+    }
+  
+    #subscribe_input button{
+      width: 40%;
+      height: 4vh;
+      border-radius: 25px;
+      border: none;
+      background-color: #008395;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      position: static;
+    }
+    
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin-top: auto;
+        width: 100%;
+      }
+    
+      #footer_wrapper{
+        display: block;
+      }
+    
+      #footer_div a{
+        text-decoration: none;
+        color: white;
+      }
+    
+      #footer_div a:hover{
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+    
+      @keyframes glow {
+        from {
+          text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #e60073
+        }
+        
+        to {
+          text-shadow: 0 0 5px #fff, 0 0 5px #ff4da6, 0 0 5px #ff4da6
+        }
+    }
+      #copyright{
+        margin: 0;
+        padding: 1%;
+      }
+}
