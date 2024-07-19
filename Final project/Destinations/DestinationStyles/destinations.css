@@ -1137,7 +1137,7 @@
             width: 100%; 
             display: flex;
             background-color: rgb(221, 221, 221);
-            border-radius: 75px 0px 0px 25px;
+            border-radius: 75px 25px 25px 25px;
             margin-bottom: 2%;
         }
         

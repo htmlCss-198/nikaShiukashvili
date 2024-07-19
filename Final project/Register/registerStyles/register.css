@@ -128,7 +128,7 @@ form{
     border: solid 1px gray;
     border-radius: 25px;
     width: 25%;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/Register/regimgs/travel-trip-vacation-holiday-journey-tourism.jpg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../regimgs/travel-trip-vacation-holiday-journey-tourism.jpg);
 }
 
 #id12{
@@ -347,7 +347,7 @@ form{
             border: solid 1px gray;
             border-radius: 25px;
             width: 50%;
-            background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/Register/regimgs/travel-trip-vacation-holiday-journey-tourism.jpg);
+            background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../regimgs/travel-trip-vacation-holiday-journey-tourism.jpg);
         }
         
         #id12{
@@ -574,7 +574,7 @@ form{
             border: solid 1px gray;
             border-radius: 25px;
             width: 70%;
-            background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/Register/regimgs/travel-trip-vacation-holiday-journey-tourism.jpg);
+            background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../regimgs/travel-trip-vacation-holiday-journey-tourism.jpg);
         }
         
         #id12{

@@ -144,7 +144,7 @@
         border: solid 1px gray;
         border-radius: 25px;
         width: 25%;
-        background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/Register/regimgs/kap1.jpg);
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../regimgs/kap1.jpg);
         background-size: cover;
     }
     
@@ -386,7 +386,7 @@
             border: solid 1px gray;
             border-radius: 25px;
             width: 100%;
-            background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/Register/regimgs/kap1.jpg);
+            background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../regimgs/kap1.jpg);
             background-size: cover;
         }
         
@@ -635,7 +635,7 @@
             border: solid 1px gray;
             border-radius: 25px;
             width: 90%;
-            background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/Register/regimgs/kap1.jpg);
+            background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../regimgs/kap1.jpg);
             background-size: cover;
             text-align: left;
         }
